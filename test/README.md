@@ -12,6 +12,8 @@ Version:      0.0.1
 
 -----
 
+* [Shyam Parekh – IEEE 802.11 Wireless LANs](https://inst.eecs.berkeley.edu//~ee122/sp07/80211.pdf)
+
 
 # DESCRIPTION
 
