@@ -1,5 +1,5 @@
 
-T<!--
+<!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.1
 -->
@@ -13,11 +13,11 @@ Version:      0.0.1
 -----
 
 
-his is the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette,
-later replaced by "[ESP8266 Sniffer][02]"
-([ordinal posting][03] has been deleted).
-This device is purely a sniffer, and as such,
-it doesn't interfere with WiFi commuication to report results.
+
+This is the "[ESP8266mini-sniff][02]"
+which replaced the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette
+(called `sniffer-01` in my repository).
+This version fixes handling of PROBE packets and further refactors code.
 
 Using ESP-01 device set to promiscuous mode (or is it monitor mode).
 
@@ -33,7 +33,7 @@ cat /dev/ttyUSB0 | grep --line-buffered 74LL5
 
 
 
-[01]:https://forum.arduino.cc/t/esp8266-mini-sniff/459923
+[01]:https://github.com/rw950431/ESP8266mini-sniff
 [02]:https://www.hackster.io/kosme/esp8266-sniffer-9e4770
 [03]:https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a
 [04]:http://www.diymalls.com/USB-to-ESP8266-Wifi-Programmer-Adapter-CH340C

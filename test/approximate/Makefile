@@ -33,7 +33,7 @@
 #-------------------------------------------------------------------------------
 
 # name of program being created
-PROG = sniffer-8
+PROG = approximate
 
 # FQBN: type of package, architecture, and board in use
 # list all known boards and their corresponding FQBN via 'arduino-cli board listall'
@@ -81,10 +81,10 @@ UPLOAD_FLAGS = $(VERBOSE) --fqbn $(FQBN) --port $(PORT)
 all: build upload                               # build and then upload
 
 build: 											# build the binary executable
-	$(CC) $(CC_FLAGS) $(CURPWD)
+#	$(CC) $(CC_FLAGS) $(CURPWD)
 
 upload: 										# up load the binary executable
-	$(UPLOAD) $(UPLOAD_FLAGS) $(CURPWD)
+#	$(UPLOAD) $(UPLOAD_FLAGS) $(CURPWD)
 
 erase:                                          # erase the entire flash
 	$(ESPTOOL) erase_flash --port $(PORT)

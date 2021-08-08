@@ -33,7 +33,7 @@
 #-------------------------------------------------------------------------------
 
 # name of program being created
-PROG = sniffer-5
+PROG = sniffer-01
 
 # FQBN: type of package, architecture, and board in use
 # list all known boards and their corresponding FQBN via 'arduino-cli board listall'

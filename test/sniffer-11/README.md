@@ -15,9 +15,9 @@ Version:      0.0.1
 
 
 # DESCRIPTION
-Wi-Fi Sniffer as a Human detector
+[Wi-Fi Sniffer as a Human detector](https://github.com/SensorsIot/Wi-Fi-Sniffer-as-a-Human-detector)
 
-This is the Material for video: https://www.youtube.com/watch?v=fmhjtzmLrg8
+Youtube video: [#163 Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
 
 Things to do before you start:
 - In mqtt.h update mqttServer = "Your Broker IP address"

@@ -28,9 +28,17 @@ ESP-01
 * [MASLOW: an Open WiFi Detector With ESP8266](https://www.instructables.com/MASLOW-an-Open-WiFi-Detector-With-ESP8266/)
 * [ESP8266 WifiSniffer](https://github.com/kalanda/esp8266-sniffer)
 
-* [#163 Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
+# Sniffing for Devices MAC and IP Address
+* [The Approximate Library](https://github.com/davidchatting/Approximate)
 
-# Consider using this Approach
+# MAC Address and OUI Lookup
+This webpage displays the name of the company that manufactured your network card.
+You can also do a reverse lookup and find the MAC addresses registered by a company.
+
+* [MAC Address and OUI Lookup](https://aruljohn.com/mac/5CCF7FD5E627)
+
+# Human Sensor
+* [#163 Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
 [How I tracked +500 people with ESP8266](https://hackaday.io/project/174644-how-i-tracked-500-people-with-esp8266)
 
 # Consider this Output Format
@@ -44,15 +52,13 @@ ESP-01
 * [#291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU)
 * [#292 Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A&t=647s)
 
+# Display
+* [WiFi Packet-Monitor | ESP8266 + OLED](https://www.youtube.com/watch?v=RGkqemAGbjU)
+
 # Using WireShark
 * [Using the ESP32 Microcontroller for Packet Sniffing](https://www.youtube.com/watch?v=4Hs6x1tMzf4)
 * [Espressif Wireshark User Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wireshark-user-guide.html)
 * [ESP8266 Packet Sniffing](https://esp8266uoa.wordpress.com/2016/01/26/esp8266-packet-sniffing/)
-
-# MAC Address and OUI Lookup
-This webpage displays the name of the company that manufactured your network card. You can also do a reverse lookup and find the MAC addresses registered by a company.
-
-* [MAC Address and OUI Lookup](https://aruljohn.com/mac/5CCF7FD5E627)
 
 
 
