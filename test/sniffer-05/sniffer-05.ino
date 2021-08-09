@@ -125,7 +125,7 @@ void channelHop()
 
 void setup() {
   // set the WiFi chip to "promiscuous" mode aka monitor mode
-  Serial.begin(57600);
+  Serial.begin(9600);
   delay(10);
   wifi_set_opmode(STATION_MODE);
   wifi_set_channel(1);

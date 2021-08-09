@@ -129,7 +129,7 @@ static void enable_promisc(int channel)
 
 void setup(void)
 {
-    Serial.begin(57600);
+    Serial.begin(9600);
     Serial.println("\n\n\rESP SNIFFER!\n");
 
     WiFi.mode(WIFI_STA);

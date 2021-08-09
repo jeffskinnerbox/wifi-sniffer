@@ -9,7 +9,7 @@
 unsigned int channel = 1;
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
   Serial.printf("\n\nSDK version:%s\n\r", system_get_sdk_version());
   Serial.println(F("ESP8266 mini-sniff by Ray Burnette http://www.hackster.io/rayburne/projects"));
   Serial.println(F("Type:   /-------MAC------/-----WiFi Access Point SSID-----/  /----MAC---/  Chnl  RSSI"));

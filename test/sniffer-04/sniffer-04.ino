@@ -43,7 +43,7 @@ void cb(esppl_frame_info *info) {
 
 void setup() {
   delay(500);
-  Serial.begin(57600);
+  Serial.begin(9600);
   esppl_init(cb);
 
   Serial.println("\n\rStarting now ...\n\r");

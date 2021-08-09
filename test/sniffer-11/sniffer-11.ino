@@ -51,7 +51,7 @@ int usedChannels[15];
 StaticJsonDocument<JBUFFER>  doc;
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   Serial.printf("\n\rSDK version:%s\n\r", system_get_sdk_version());
   Serial.println(F("\n\rHuman detector by Andreas Spiess. ESP8266 mini-sniff by Ray Burnette http://www.hackster.io/rayburne/projects"));

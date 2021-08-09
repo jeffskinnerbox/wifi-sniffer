@@ -76,7 +76,7 @@ promisc_cb(uint8 *buf, uint16 len)
 //Init function
 void setup ()
 {
-    Serial.begin(57600);
+    Serial.begin(9600);
     delayMicroseconds(100);
 
     Serial.println("\n\n\r*** Monitor mode test ***");

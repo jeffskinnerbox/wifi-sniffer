@@ -247,7 +247,7 @@ String urlencode(String str) {
 
 void setup() {
     // set the WiFi chip to "promiscuous" mode aka monitor mode
-    Serial.begin(57600);
+    Serial.begin(9600);
     delay(10);
     unsigned char mac[6];
     WiFi.macAddress(mac);

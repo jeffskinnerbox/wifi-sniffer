@@ -12,7 +12,7 @@ Version:      0.0.1
 
 -----
 
-**NOT WORKING - Requires FreeRTOS**
+**NOT WORKING - Requires FreeRTOS ?**
 
 [esp8266-Arduino-WifiSniffer][01]
 another example of simple and inexpensive WiFi packet analyzer

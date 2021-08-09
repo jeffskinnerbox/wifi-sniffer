@@ -12,6 +12,9 @@ Version:      0.0.1
 
 -----
 
+This built on the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette,
+(called `sniffer-02` in my repository).
+
 
 
 # DESCRIPTION

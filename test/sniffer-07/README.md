@@ -12,6 +12,8 @@ Version:      0.0.1
 
 -----
 
+**Doesn't appear to work ... Repeatedly crashes**
+
 
 [wirect-firmware][01]
 another example of simple and inexpensive WiFi packet analyzer

@@ -60,7 +60,7 @@ void wifi_sniffer_packet_handler(uint8_t *buff, uint16_t len)
 }
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   //Set station mode, callback, then cycle promisc. mode
   wifi_set_opmode(STATION_MODE);

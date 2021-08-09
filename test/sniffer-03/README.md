@@ -15,8 +15,8 @@ Version:      0.0.1
 
 
 Thi is the "[ESP8266 Sniffer][02]"
-which replaced the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette
-([ordinal posting][03] has been deleted).
+which replaces the "[ESP8266mini-sniff][02]"
+(called `sniffer-02` in my repository).
 This verison is an improvement in that it allows you to scan for devices not connected to any access point (AP).
 
 Using ESP-01 device set to promiscuous mode (or is it monitor mode).
