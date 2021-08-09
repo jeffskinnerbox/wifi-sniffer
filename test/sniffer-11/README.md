@@ -13,7 +13,11 @@ Version:      0.0.1
 -----
 
 This built on the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette,
-(called `sniffer-02` in my repository).
+(called `sniffer-01` in my repository).
+
+Consider folding in features from
+`sniffer-02`
+`sniffer-03`
 
 
 
@@ -59,3 +63,7 @@ To terminate monitoring, enter: `CNTR-a :quit`.
 # USAGE
 
 # SOURCES
+
+
+
+[01]:https://forum.arduino.cc/t/esp8266-mini-sniff/459923
