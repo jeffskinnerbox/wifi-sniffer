@@ -13,7 +13,7 @@
 const int sleepTimeS = 30;
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
 
   // Set WiFi to station mode and disconnect from an AP if it was previously connected
   WiFi.mode(WIFI_STA);
