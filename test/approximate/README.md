@@ -1,4 +1,8 @@
 
+
+* [ESP8266 Network Meters Show Off Unique Software](https://hackaday.com/2021/08/10/esp8266-network-meters-show-off-unique-software/)
+* [Secure and cool Remote Controls (Touchless, AES128 encryption, with a T-Beam watch and a cat)](https://www.youtube.com/watch?v=cXh0T1CWtyg)
+
 The [Approximate Library][01] is a WiFi Arduino Library for building proximate interactions
 between a WiFi device and a ESP8266 or ESP32.
 
