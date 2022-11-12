@@ -1,4 +1,4 @@
-#include "/home/jeff/src/wifi-sniffer/secrets.h"
+#include "/home/jeff/src/embedded-devices/wifi-sniffer/secrets.h"
 #include <Arduino.h>
 #include <ArduinoJson.h>
 #include <ESP8266HTTPClient.h>

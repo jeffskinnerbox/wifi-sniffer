@@ -78,13 +78,13 @@ UPLOAD_FLAGS = $(VERBOSE) --fqbn $(FQBN) --port $(PORT)
 
 .PHONY: build upload clean erase size           # explicitly declare these target to be phony
 
-all: build upload                               # build and then upload
+#all: build upload                               # build and then upload
 
-build: 											# build the binary executable
-	$(CC) $(CC_FLAGS) $(CURPWD)
+#build: 											# build the binary executable
+#	$(CC) $(CC_FLAGS) $(CURPWD)
 
-upload: 										# up load the binary executable
-	$(UPLOAD) $(UPLOAD_FLAGS) $(CURPWD)
+#upload: 										# up load the binary executable
+#	$(UPLOAD) $(UPLOAD_FLAGS) $(CURPWD)
 
 erase:                                          # erase the entire flash
 	$(ESPTOOL) erase_flash --port $(PORT)
