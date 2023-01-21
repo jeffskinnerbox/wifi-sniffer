@@ -54,6 +54,7 @@ You can also do a reverse lookup and find the MAC addresses registered by a comp
 * [Using the ESP32 Microcontroller for Packet Sniffing](https://www.youtube.com/watch?v=4Hs6x1tMzf4)
 * [Espressif Wireshark User Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wireshark-user-guide.html)
 * [ESP8266 Packet Sniffing](https://esp8266uoa.wordpress.com/2016/01/26/esp8266-packet-sniffing/)
+* [Can Wireshark Spot Hidden Cameras For Free?](https://www.youtube.com/watch?v=tYps0b9FzVI)
 
 # Increasing Your Range
 * [ESP32 WIFI HITS 10KM WITH A LITTLE HELP](https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/)
