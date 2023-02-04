@@ -14,6 +14,7 @@ Version:      0.0.1
 
 
 
+# Sniffer-02
 This is the "[ESP8266mini-sniff][02]"
 which replaced the ordinal "[ESP8266 Mini Sniff][01]" by Ray Burnette
 (called `sniffer-01` in my repository).
@@ -21,11 +22,11 @@ This version fixes handling of PROBE packets and further refactors code.
 
 Using ESP-01 device set to promiscuous mode (or is it monitor mode).
 
-Programmed using the [DIYMall ESP Prog][04].
+### Device Programming
+ESP8266 was flashed using the [DIYMall ESP Prog][04] or
+[Stemedu USB to ESP8266 ESP-01 programmer board][05].
 
-
-
-# Testing
+### Testing
 ```bash
 screen /dev/ttyUSB0 57600,cs8clscls
 cat /dev/ttyUSB0 | grep --line-buffered 74LL5
@@ -37,3 +38,4 @@ cat /dev/ttyUSB0 | grep --line-buffered 74LL5
 [02]:https://www.hackster.io/kosme/esp8266-sniffer-9e4770
 [03]:https://www.hackster.io/rayburne/esp8266-mini-sniff-f6b93a
 [04]:http://www.diymalls.com/USB-to-ESP8266-Wifi-Programmer-Adapter-CH340C
+[05]:https://www.amazon.com/gp/product/B08QMMGZLB

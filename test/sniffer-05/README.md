@@ -14,12 +14,23 @@ Version:      0.0.1
 
 
 
-[ESP8266 WifiSniffer](https://github.com/kalanda/esp8266-sniffer)
-[How I tracked +500 people with ESP8266](https://hackaday.io/project/174644-how-i-tracked-500-people-with-esp8266)
-[ESP8266 TURNED SECRETIVE WIFI PROBE REQUEST SNIFFER](https://hackaday.com/2020/09/20/esp8266-turned-secretive-wifi-probe-request-sniffer/)
+# Sniffer-05
+This is the [ESP8266 WifiSniffer][01] and appears to be the code used for [OpenMAC][02].
 
-phone is constantly searching for all WiFi networks which you already connect in the past (unless you did remove as "saved"), saying to anyone who is listening for those public packets where you have been before, and of course, your unique device MAC address.
+### Device Programming
+ESP8266 was flashed using the [DIYMall ESP Prog][04] or
+[Stemedu USB to ESP8266 ESP-01 programmer board][05].
 
-Those public packets are named as "probe requests" and are used by smartphones to connect faster to wifi networks than if it waits for the network send a Beacon frame to announce the SSID.
+### Testing
+```bash
+screen /dev/ttyUSB0 57600,cs8cls
+cat /dev/ttyUSB0 | grep --line-buffered 74LL5
+```
 
-This program just listen for those "probe requests" and prints to serial port the information. For now only shows the RSSI (bigger values are near devices), the MAC address of the device and the SSID (if available) of the wifi network which is looking for.
+
+
+[01]:https://github.com/kalanda/esp8266-sniffer
+[02]:https://hackaday.com/2020/09/20/esp8266-turned-secretive-wifi-probe-request-sniffer/
+[03]:
+[04]:http://www.diymalls.com/USB-to-ESP8266-Wifi-Programmer-Adapter-CH340C
+[05]:https://www.amazon.com/gp/product/B08QMMGZLB

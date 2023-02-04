@@ -12,6 +12,17 @@ Version:      0.0.1
 
 -----
 
+# Investigate
+Consider this Output Format
+* [Writing a Simple ESP8266-Based Sniffer](https://carvesystems.com/news/writing-a-simple-esp8266-based-sniffer/)
+* [ESP8266 packet injection/sniffer example](https://github.com/pulkin/esp8266-injection-example)
+
+* [WiFi Probe Requests Explained](https://blog.spacehuhn.com/probe-request)
+* [Writing a Simple ESP8266-Based Sniffer](https://blog.carvesystems.com/writing-a-simple-esp8266-based-sniffer.html)
+* [Sniffing WiFi with an ESP8266 microcontroller](https://www.linux-magazine.com/Issues/2021/250/ESP8266-for-WiFi-Sniffing)
+* [Building sniffer on the basis of ESP32. Listening on Wi-Fi, aiming at Bluetooth!](https://hackmag.com/security/esp32-sniffer/)
+* [ESP TO WIRESHARK](https://hackaday.com/2017/07/06/esp-to-wireshark/)
+
 
 Start with
 

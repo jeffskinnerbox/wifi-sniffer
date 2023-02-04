@@ -2,7 +2,7 @@
 #-------------------------------------------------------------------------------
 #
 # Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
-# Version:      1.0.0
+# Version:      1.0.3
 #
 # USAGE
 #	To build the executable and flash the device
@@ -32,7 +32,6 @@
 #  DOCUMENTATION
 #       https://www.gnu.org/software/make/manual/html_node/Recursion.html
 #       https://www.gnu.org/software/make/manual/make.html#Empty-Recipes
-#       https://lackof.org/taggart/hacking/make-example/
 #
 #-------------------------------------------------------------------------------
 
@@ -59,3 +58,4 @@ $(TOPTARGETS): $(SUBDIRS)              # targets are subdirectories
 
 $(SUBDIRS):                            # pass your goal to subdirectory makefile
 	$(MAKE) -C $@ $(MAKECMDGOALS)
+	@echo -e "\n\n------------------------------------------------------------------------------------------\n\n"

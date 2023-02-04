@@ -12,7 +12,7 @@ extern "C" {
 
 //===== SETTINGS =====//
 #define CHANNEL 1
-#define BAUD_RATE 115200
+#define BAUD_RATE 9600
 #define CHANNEL_HOPPING true //if true it will scan on all channels
 #define MAX_CHANNEL 11 //(only necessary if channelHopping is true)
 #define HOP_INTERVAL 214 //in ms (only necessary if channelHopping is true)
