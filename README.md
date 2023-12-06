@@ -6,11 +6,19 @@ Version:      0.0.1
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 -----
+
+
+# Maybe a Good Starting Point
+* [ESP32 AP scanner and Packet Sniffer](https://www.youtube.com/watch?v=f6pZjVkf7SI)
+* [Simple WiFi Packet Monitor for the ESP32S2 / ESP8266](https://github.com/HakCat-Tech/Nugget-Packet-Monitor)
+
+
+
 
 # Investigate
 Consider this Output Format

@@ -33,6 +33,9 @@ ESP-01
 * Sniffer-10 - [ESP8266Scan_Sniff][10]
 * Sniffer-11 - [Wi-Fi Sniffer as a Human detector][11]
 * Sniffer-12 - [heltec_arduino_wifi_Device_AP_Detector_LCD][12]
+* Approximate -
+* Open-WiFi -
+* Deauther -
 
 [01]:https://github.com/rw950431/ESP8266mini-sniff
 [02]:https://www.hackster.io/kosme/esp8266-sniffer-9e4770
